@@ -16,7 +16,7 @@ function App() {
   return (
     <div className="App">
       <AuthContextProvider>
-        <BrowserRouter>
+        <BrowserRouter basename="/Assignment3_Admin">
           <div
             id="main-wrapper"
             data-theme="light"
